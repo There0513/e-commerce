@@ -1,25 +1,29 @@
-# CakePHP 3
+/back/.env.local
+/back/.env.local.php
+/back/.env.*.local
+/back/config/secrets/prod/prod.decrypt.private.php
+/back/public/bundles/
+/back/var/
+/back/vendor/
 
-/vendor/*
-/config/app.php
+# dependencies
+/front/node_modules
+/front/.pnp
+/front.pnp.js
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# testing
+/front/coverage
 
-/logs/*
-!/logs/empty
+# production
+/front/build
 
-# CakePHP 2
+# misc
+/front/.DS_Store
+/front/.env.local
+/front/.env.development.local
+/front/.env.test.local
+/front/.env.production.local
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+/front/npm-debug.log*
+/front/yarn-debug.log*
+/front/yarn-error.log*
